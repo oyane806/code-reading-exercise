@@ -97,7 +97,14 @@ ternary operators
 
 **Questions:**
 
-- I am not sure about the notation function(e), function(el)
-- my button clear completed is not working
-- why is there a very big function jquery?
-- why event.target.tagName is not working? line 72
+- () I am not sure about the notation function(e), function(el)? I decided to remove it completely
+- () why is there a very big function jquery?
+- () how to give focus to my element input?
+- (x) my button clear completed is not working? => I tried to target an element with its class whereas it was it id
+- (x) why event.target.tagName is not working? line 72 => need to write LABEL instead of label
+
+**To do:**
+
+- () write better event listeners
+- () reincorporate function(el), function(e)
+- () find a way to focus on an element
